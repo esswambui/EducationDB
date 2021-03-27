@@ -8,4 +8,4 @@ A project that ingests a CSV datafile, stores it in a SQLite database and displa
 ![database](db.png "database")
 - Display the data on a web browser as shown:        
 ![html](html.png "html")
-#### A step by step procedure on how the program works is provided in the jupyter notebook.
+#### A step by step procedure on how the program works is provided in the **Teachers.ipynb** Jupyter Notebook.
