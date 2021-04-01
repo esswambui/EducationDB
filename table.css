@@ -1,0 +1,41 @@
+h1 {
+    color: :darkslategray;
+    text-align:center;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+    position: sti;
+    top:0;
+   
+}
+table {
+    overflow-x: auto;
+    width: 100%;
+    position: absolute;
+    border: 5px solid black;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+th {
+   height: 40px;
+   background-color: lightsteelblue;
+   text-align: center;
+   position: sticky;
+   top: 0;
+}
+th td {
+    padding: 0.25rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+
+}
+tbody tr.active-row {
+    font-weight: bold;
+}
+tr:hover {
+    background-color: gray;
+  
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
